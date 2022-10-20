@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Twitter Monitor";
+}
+
+<div class="status-bar">
+    <span><strong>Status:</strong> <label id="status-label">Not Started</label></span>
+    <button id="monitor-button" type="button" class="monitor-button" data-state="off">Start Monitoring</button>
+</div>
+
+<hr>
+
+<strong>Total Tweets:</strong> <label id="count-label"></label>
+
+<hr>
+
+<strong>Top 10 Hashtags:</strong>
+<br />
+<ul id="hashtag-list" class="hashtagList"></ul>
+
+
+@section Scripts
+    {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="~/site.js"></script>
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JH_Challenge.Web", "JH_Challenge.Web\JH_Challenge.Web.csproj", "{2A7B8E84-A162-4271-B718-42BF2BC675D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JH_Challenge.WebTests", "JH_Challenge.WebTests\JH_Challenge.WebTests.csproj", "{9CF7BEFD-CAF7-476B-8434-509E96F740C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A7B8E84-A162-4271-B718-42BF2BC675D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7B8E84-A162-4271-B718-42BF2BC675D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7B8E84-A162-4271-B718-42BF2BC675D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7B8E84-A162-4271-B718-42BF2BC675D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF7BEFD-CAF7-476B-8434-509E96F740C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF7BEFD-CAF7-476B-8434-509E96F740C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF7BEFD-CAF7-476B-8434-509E96F740C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF7BEFD-CAF7-476B-8434-509E96F740C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F31E80A-2D4A-4331-9C7D-5C4C560377D1}
+	EndGlobalSection
+EndGlobal
