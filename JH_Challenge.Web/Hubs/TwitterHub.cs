@@ -17,15 +17,15 @@ namespace JH_Challenge.Web.Hubs
         public void StartMonitoring()
         {
             _logger.LogInformation("StartMonitoring");
-            _twitterService.StartMonitoring();
             Clients.All.SendAsync("StartMonitoring");
+            _twitterService.StartMonitoring();
         }
 
         public void StopMonitoring()
         {
             _logger.LogInformation("StopMonitoring");
-            _twitterService.StopMonitoring();
             Clients.All.SendAsync("StopMonitoring");
+            _twitterService.StopMonitoring();
         }
 
         public override async Task OnConnectedAsync()
